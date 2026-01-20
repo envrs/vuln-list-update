@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/vuln-list-update/nvd"
-	"github.com/aquasecurity/vuln-list-update/utils"
+	"github.com/cvedb/vuln-list-update/nvd"
+	"github.com/cvedb/vuln-list-update/utils"
 )
 
 func TestUpdate(t *testing.T) {

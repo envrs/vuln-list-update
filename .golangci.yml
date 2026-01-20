@@ -15,12 +15,12 @@ linters:
         modules:
           - github.com/hashicorp/go-version:
               recommendations:
-                - github.com/aquasecurity/go-version
-              reason: '`aquasecurity/go-version` is degisned for our use-cases'
+                - github.com/cvedb/go-version
+              reason: '`cvedb/go-version` is degisned for our use-cases'
           - github.com/Masterminds/semver:
               recommendations:
-                - github.com/aquasecurity/go-version
-              reason: '`aquasecurity/go-version` is degisned for our use-cases'
+                - github.com/cvedb/go-version
+              reason: '`cvedb/go-version` is degisned for our use-cases'
   exclusions:
     generated: lax
     presets:
@@ -41,7 +41,7 @@ formatters:
       sections:
         - standard
         - default
-        - prefix(github.com/aquasecurity/)
+        - prefix(github.com/cvedb/)
         - blank
         - dot
   exclusions:

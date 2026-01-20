@@ -20,7 +20,7 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/vuln-list-update/utils"
+	"github.com/cvedb/vuln-list-update/utils"
 )
 
 // csvEntry represents a single entry from changes.csv or deletions.csv

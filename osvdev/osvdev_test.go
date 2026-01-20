@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/vuln-list-update/osv"
-	"github.com/aquasecurity/vuln-list-update/osvdev"
+	"github.com/cvedb/vuln-list-update/osv"
+	"github.com/cvedb/vuln-list-update/osvdev"
 )
 
 func Test_Update(t *testing.T) {

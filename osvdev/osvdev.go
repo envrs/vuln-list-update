@@ -16,8 +16,8 @@ package osvdev
 import (
 	"path/filepath"
 
-	"github.com/aquasecurity/vuln-list-update/osv"
-	"github.com/aquasecurity/vuln-list-update/utils"
+	"github.com/cvedb/vuln-list-update/osv"
+	"github.com/cvedb/vuln-list-update/utils"
 )
 
 const (

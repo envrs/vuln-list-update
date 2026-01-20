@@ -20,8 +20,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/tools/txtar"
 
-	"github.com/aquasecurity/vuln-list-update/redhat/csaf"
-	"github.com/aquasecurity/vuln-list-update/utils"
+	"github.com/cvedb/vuln-list-update/redhat/csaf"
+	"github.com/cvedb/vuln-list-update/utils"
 )
 
 const archiveName = "csaf_vex_2025-12-06.tar.zst"

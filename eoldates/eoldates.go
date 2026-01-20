@@ -11,7 +11,7 @@ import (
 	"golang.org/x/exp/slices"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/vuln-list-update/utils"
+	"github.com/cvedb/vuln-list-update/utils"
 )
 
 const fullEOLDatesURL = "https://endoflife.date/api/v1/products/full"

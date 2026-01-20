@@ -21,7 +21,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/vuln-list-update/utils"
+	"github.com/cvedb/vuln-list-update/utils"
 )
 
 // Database represents a generic OSV vulnerability database that can process
